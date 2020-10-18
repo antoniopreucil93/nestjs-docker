@@ -5,4 +5,4 @@
 ## Running the app
 
  - docker swarm init
- - docker stack deploy .
+ - docker stack deploy --compose-file docker-compose.yml ${service-name}

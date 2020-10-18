@@ -7,7 +7,7 @@
  - docker swarm init (optionaly you can specify ip address)
  - docker stack deploy --compose-file docker-compose.yml ${service-name}
 
-## Send first request
+## Testing
  1. docker network ls (list all networks and find network with driver swarm)
  2. docker inspect ${network-id} (show network details where you can find network ip addres)
  3. send request on route ${network-ip-address}:${api-container-exposed-port}/users

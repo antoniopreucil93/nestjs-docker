@@ -1,4 +1,4 @@
-## Running the app
+Running the app
 
-# docker swarm init
-# docker stack deploy .
+ - docker swarm init
+ - docker stack deploy .

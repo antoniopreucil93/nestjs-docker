@@ -1,6 +1,6 @@
 # Docker example for Nestjs
 
- - simple example of how to deploy nestjs application with postgres database inside docker container with help of docker compose.
+ - simple example of how to deploy nestjs application and postgres database with help of docker compose.
 
 ## Running the app
 
